@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo_ddd_pattern
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:8080/dev
+    username: admin
+    password: admin
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  main:
+    allow-circular-references: true
+server:
+  port: 8088
